@@ -5,13 +5,12 @@
     
 }
 .inner-conainers{
-    box-shadow: large;
-    padding-x: 8rem ;
-    padding-y: 5rem ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8rem 5rem;
 }
 h2{
-    font-size: large;
-    font-style: bold;
+    font-size: 2rem;
+    font-weight: bold;
     margin-bottom: 4rem;
 }
 .mb{
@@ -22,16 +21,15 @@ h2{
     color: gray;
 }
 .input{
-    width: 100%;
-    padding-x: 3rem ;
-    padding-y : 2rem ;
+    width: full;
+    padding: 3rem 2rem;
     box-sizing: border-box;
 }
 .btn{
-    width: 100%;
+    width: full;
     background-color: green;
     color: white;
-    padding-y: 2rem;
+    padding-right: 2rem;
 }
 .link{
     color: rgb(33, 105, 235, 1);

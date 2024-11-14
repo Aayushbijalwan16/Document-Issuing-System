@@ -1,7 +1,7 @@
 // src/StudentRegistrationForm.js
 
 import React, { useState } from 'react';
-import './StudentRegistrationForm.scss';
+import '../student/register.scss';
 import axios from 'axios';
 
 const handleSubmit = async (e) => {
@@ -63,6 +63,17 @@ const StudentRegistrationForm = () => {
           />
         </div>
         <div className="form-group">
+          <label htmlFor="fathersName">Father's Name:</label>
+          <input
+            type="text"
+            id="fathersName"
+            name="fathersName"
+            value={formData.fathersName}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
           <label htmlFor="branch">Branch:</label>
           <input
             type="text"
@@ -102,17 +113,6 @@ const StudentRegistrationForm = () => {
             id="contactNo"
             name="contactNo"
             value={formData.contactNo}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="fathersName">Father's Name:</label>
-          <input
-            type="text"
-            id="fathersName"
-            name="fathersName"
-            value={formData.fathersName}
             onChange={handleChange}
             required
           />
